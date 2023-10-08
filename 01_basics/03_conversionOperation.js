@@ -37,8 +37,8 @@ let negValue = -value
 // console.log(2-2);
 // console.log(2*2);
 // console.log(2**3);
-// console.log(2/3);
-// console.log(2%3);
+//console.log(2/3);
+ //console.log(2%3);
 
 let str1 = "hello"
 let str2 = " harshad"
@@ -51,18 +51,21 @@ let str3 = str1 + str2
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
 
-// console.log( (3 + 4) * 5 % 3);
+ //console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+ //console.log(+true); //==1
+// console.log(+""); //==0
 
 let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
 
-let gameCounter = 100
-++gameCounter;
-console.log(gameCounter);
+let a = 3
+b = a++
+let x = 4
+y = --x
+//console.log( a,"\n",b)
+console.log( x,"\n",y)
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
